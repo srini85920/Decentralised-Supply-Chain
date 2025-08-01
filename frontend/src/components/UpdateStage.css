@@ -1,0 +1,57 @@
+/* src/components/UpdateStage.css */
+.update-stage-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.update-stage-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.update-stage-container input,
+.update-stage-container select,
+.update-stage-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+.update-stage-container input:focus,
+.update-stage-container select:focus,
+.update-stage-container textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.update-stage-container textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.update-stage-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-stage-container button:hover {
+  background-color: #0056b3;
+}

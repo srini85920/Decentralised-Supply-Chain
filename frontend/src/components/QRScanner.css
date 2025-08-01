@@ -1,0 +1,9 @@
+.qr-scanner-container {
+  margin-top: 20px;
+  text-align: center;
+}
+#qr-reader {
+  margin: 20px auto;
+  border: 2px dashed #aaa;
+  padding: 10px;
+}
